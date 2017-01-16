@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.left {
+    width: 25%;
+    height: 100vh;
+    background-color: #3B686F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+.name {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.profil {
+    background-image:url("../images/profil.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.describe {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.social {
+    padding-top:25px;
+}
+
+.social-2 {
+    padding-top:10px;
+}
+.ico-perso{
+    padding: 10px;
+    color: #86EAFB;
+    cursor:pointer;
+}
+
+.ico-perso:hover {
+    color: #20383C;
+    transition: .5s;
+}
+
+.ico-perso:active{
+    text-decoration: none;
+    color: #86EAFB;
+}
+.ico-perso:focus{
+    text-decoration: none;
+    color: #86EAFB;
+}
+
+.right {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    background-image: url("../images/sayagata-400px.png");
+    float: right;
+    background-attachment: fixed;
+}
+
+.portfolio {
+    width: 90%;
+    margin-left: 11%;
+}
+
+.content-portfolio {
+    /*margin: 10%;*/
+}
+.img {
+/*    background-size: cover;
+    background-position: center;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover{
+    width: 25%;
+    height: 200px;
+    background-color:black;
+    float: left;
+    margin: 2% 2% 4% 2%;
+    transition: 0.8s;
+}
+
+.name-project{
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------ HOVER SUR LES IMAGES -----*/
+
+.wrapper {
+    position: relative;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    display:block;
+}
+.text {
+    position: absolute;
+    top: 0;
+    color:#fff;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.text:hover {
+    opacity:1;
+}
+
+img {
+    z-index:1;
+}
+
+/* ----- FIN HOVER IMAGE --------*/
+
+.desc-projet{
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-desc-projet {
+    background-color: black;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.center-contact{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+/*#86EAFB*/
+
+.contact {
+    margin-top:40px;
+    padding: 0;
+    background-color: #3B686F;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border: 8px solid #2D5055;
+    border-radius: inherit;
+    width: 100%;
+    transition: all 1s;
+}
+
+.contact:hover{
+    background-color: #2D5055;
+    border-color:#1F383B;
+}
+
+.contact:focus{
+    background-color: #2D5055;
+    border-color:#1F383B;
+    outline: none;
+}
+
+.contact:active{
+    outline: none;
+}
+
+.modal-contact{
+    background-color: rgba(0,0,0,0.9);
+    width: 75%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 3;
+    color: #fff;
+
+}
+
+.none-contact{
+    display: none;
+}
+
+.overflow-y {
+    overflow-y: hidden;
+}
+
+.col-sm-10 {
+    width: 100%;
+}
+
+.cross{
+    position: absolute;
+    top:10px;
+    left: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.envoyer{
+    margin-top: 15px;
+}
+
+.area-resize {
+    resize: none;
+}
+
+.form-contact {
+    margin-top: 2%;
+}
+
+.input-contact {
+    border-radius: inherit;
+    border: 6px solid grey;
+}
+
+.link-contact{
+    display:block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-contact:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-contact:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-contact:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*----------- RESPONSIVE --------------------*/
+
+@media screen and (max-width: 1024px)
+{
+    .profil {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin: 15px 20px 20px 20px;
+    }
+    .left {
+        width: 100%;
+        height: 10vh;
+        display: inherit;
+        border-bottom:10px solid #2D5055;
+    }
+    .right{
+        display: none;
+        /*width: 100%;*/
+    }
+    .name{
+        /*float: right;*/
+        /*padding-top: 40px;*/
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin: 0 auto;
+    }
+    .describe {
+        display: none;
+    }
+    .social-1 {
+        display: none;
+    }
+    .social-2 {
+        display: none;
+    }
+    .fa-4x{
+        font-size: 2.5em!important;
+    }
+
+    .contact {
+        margin-top: 0px;
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        top: 0px;
+        left: 0px;
+        border-bottom:0px;
+    }
+
+    .link-contact{
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+}
