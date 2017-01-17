@@ -1,0 +1,38 @@
+/*----------- RESPONSIVE --------------------*/
+
+
+
+@media screen and (max-width: 1024px)
+{
+    .left {
+        width: 100%;
+        height: 100vh;
+        position: inherit;
+    }
+
+    .right {
+        /*display: none;*/
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 414px)
+{
+ .content-carre {
+     margin-left: 0;
+ }
+
+    .modal-contact{
+        position: inherit;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        /*margin-left: -20%;*/
+    }
+    .right {
+        display: none;
+    }
+}
+
+

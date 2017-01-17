@@ -2,7 +2,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@ session_start();
     <meta name="description" content="Je suis Thomas Sancéo, Développeur web passionné par le sport " />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="js/jquery/jquery-3.1.1.min.js"></script>
@@ -56,101 +57,107 @@ session_start();
                 </button>
             </div>
         </div>
-        </div>
-        <div class="right">
-            <div class="portfolio">
-                <div class="hover">
-                <a href="#" class="wrapper">
-                    <div class="text">
-                           Projet CREATE PRO
+        <div class="right row">
+            <div class="content-carre">
+                <div class="col-sm-3 carre">
+                    <div class="top projet-1">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
+                                Projet Create PRO
+                            </div>
+                        </a>
                     </div>
-                    <img src="images/createpro.png" alt="" class="img">
-                </a>
-                    <div class="box-desc-projet">
-                        <div class="desc-projet">
+                    <div class="bottom center">
+                        <div class="techno">
                             HTML5 - CSS3
                         </div>
                     </div>
                 </div>
-
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
-                                Projet BOOTSTRAP
+                <div class="col-sm-3 carre">
+                    <div class="top projet-2">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
+                                Projet Bootstrap
                             </div>
-                            <img src="images/bootstrap.png" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                HTML5 - CSS3 - JavaScript
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            HTML5 - CSS3 - JavaScript
                         </div>
                     </div>
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
+                </div>
+                <div class="col-sm-3 carre">
+                    <div class="top projet-3">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
                                 Projet Pastime
                             </div>
-                            <img src="images/pastime.png" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                HTML5 - CSS3 - JavaScript
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            HTML5 - CSS3 - JavaScript
                         </div>
                     </div>
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
-                                Projet Traiteur
+                </div>
+                <div class="col-sm-3 carre">
+                    <div class="top projet-4">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
+                                Projet Fedala
                             </div>
-                            <img src="images/fedala.png" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                Wordpress
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            WORDPRESS
                         </div>
                     </div>
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
+                </div>
+                <div class="col-sm-3 carre">
+                    <div class="top projet-5">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
                                 Projet DDCSPP
                             </div>
-                            <img src="images/ddcspp.png" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                HTML5 - CSS3 - JavaScript - PHP
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            HTML5 - CSS3 - PHP - JavaScript
                         </div>
                     </div>
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
+                </div>
+                <div class="col-sm-3 carre">
+                    <div class="top projet-6">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
                                 Projet 123itech
                             </div>
-                            <img src="images/123itech.png" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                Webmarketing
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            WEBMARKETING
                         </div>
                     </div>
-                    <div class="hover">
-                        <a href="#" class="wrapper">
-                            <div class="text">
+                </div>
+                <div class="col-sm-3 carre">
+                    <div class="top projet-7">
+                        <a href="#" class="lien">
+                            <div class="bloc-lien">
                                 Projet Youtube
                             </div>
-                            <img src="images/youtube.jpg" alt="" class="img">
                         </a>
-                        <div class="box-desc-projet">
-                            <div class="desc-projet">
-                                Webmarketing
-                            </div>
+                    </div>
+                    <div class="bottom center">
+                        <div class="techno">
+                            WEBMARKETING
                         </div>
                     </div>
+                </div>
+            </div>
             </div>
             <div class="modal-contact none-contact" id="modal">
                 <i class="fa fa-times fa-4x cross" aria-hidden="true"></i>
@@ -164,7 +171,7 @@ session_start();
                         Votre email a bien été envoyé.
                     </div>
                 <?php endif; ?>
-                <form class="col-sm-8 form-contact" action="contact.php" method="post">
+                <form class="col-sm-8 col-md-8 col-xs-12  form-contact" action="contact.php" method="post">
                     <div class="form-group">
                         <input required class="form-control input-lg input-contact" type="text" placeholder="Nom" name="name" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
                     </div>
@@ -180,7 +187,8 @@ session_start();
                     <button type="submit" class="btn btn-primary contact">Envoyer</button>
                 </form>
             </div>
-        </div>
+
+    </div>
         <script>
 $(document).ready(function(){
 
