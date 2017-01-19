@@ -51,9 +51,14 @@ session_start();
             </a>
             </div>
                 </div>
-            <div class="center-contact">
+            <div class="center-contact contact-desktop">
                 <button type="button" class="contact btn btn-primary btn-lg">
                     <a href="#contact" class="link-contact">Contact</a>
+                </button>
+            </div>
+            <div class="center-contact contact-mobile">
+                <button type="button" class="contact btn btn-primary btn-lg">
+                    <a href="mailto:tsanceo@yahoo.com" class="link-contact">Contact</a>
                 </button>
             </div>
         </div>
@@ -61,7 +66,7 @@ session_start();
             <div class="content-carre">
                 <div class="col-sm-3 carre">
                     <div class="top projet-1">
-                        <a href="#" class="lien">
+                        <a href="projet/Challenge_1-master/code_fini/Index.html" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet Create PRO
                             </div>
@@ -75,7 +80,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-2">
-                        <a href="#" class="lien">
+                        <a href="projet/Challenge_4-master/index.html" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet Bootstrap
                             </div>
@@ -89,7 +94,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-3">
-                        <a href="#" class="lien">
+                        <a href="projet/Challenge_2-master/index.html" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet Pastime
                             </div>
@@ -103,7 +108,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-4">
-                        <a href="#" class="lien">
+                        <a href="http://www.fedala-deco-traiteur.fr/" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet Fedala
                             </div>
@@ -117,7 +122,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-5">
-                        <a href="#" class="lien">
+                        <a href="http://mixite.exploratoire.com/" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet DDCSPP
                             </div>
@@ -131,7 +136,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-6">
-                        <a href="#" class="lien">
+                        <a href="http://www.123itech.com" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet 123itech
                             </div>
@@ -145,7 +150,7 @@ session_start();
                 </div>
                 <div class="col-sm-3 carre">
                     <div class="top projet-7">
-                        <a href="#" class="lien">
+                        <a href="https://www.youtube.com/channel/UCW83F9GEDjPUpAPmbFnmfuQ" target="_blank" class="lien">
                             <div class="bloc-lien">
                                 Projet Youtube
                             </div>

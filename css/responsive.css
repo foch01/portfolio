@@ -17,22 +17,25 @@
     }
 }
 
-@media screen and (max-width: 414px)
+@media screen and (max-width: 1024px)
 {
- .content-carre {
-     margin-left: 0;
- }
-
     .modal-contact{
-        position: inherit;
-        width: 100%;
-        background-color: black;
-        margin: 0;
-        /*margin-left: -20%;*/
-    }
-    .right {
+
         display: none;
     }
+    .contact-mobile {
+        display: block;
+    }
+
+    .contact-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     .content-carre {
+        margin-left: 0;
+        }
 }
 
 

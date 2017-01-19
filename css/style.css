@@ -375,3 +375,8 @@ img {
     height: auto;
     margin-left: 10%;
 }
+
+
+.contact-mobile {
+    display: none;
+}

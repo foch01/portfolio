@@ -29,7 +29,7 @@ if(!empty($errors)){
     $object = $_POST['subject'];
     $message = $_POST['message'];
     $headers = 'FROM: ' . $_POST['mail'];
-    mail('foch29310@gmail.com', $object, $message, $headers);
+    mail('tsanceo@yahoo.com', $object, $message, $headers);
     header('Location: index.php#contact');
 }
 
